@@ -1,7 +1,7 @@
 if(!localStorage.getItem("first"))
 {
     var a=["book","set","first"],
-        b=[[["find()","./img/discover.png","精选站点"],["https://www.coolapk.com/","./img/coolapk.png","酷安"],["http://echooit.com/blog/","./img/echooit.png","乐回享"],["http://www.youku.com","./img/youku.com.png","优酷"],["http://m.bilibili.com","./img/bilibili.com.png","Bilibili"],["https://m.weibo.com","./img/weibo.com.png","微博"],["https://m.taobao.com","./img/taobao.com.png","淘宝"],["https://sina.cn","./img/sina.cn.png","新浪"],["http://portal.3g.qq.com","./img/qq.com.png","腾讯"],["https://www.google.com/ncr","./img/google.ru.png","Google"]],[["engines","via"],["transition",0],["wallpaper",""],["logo","./img/logo.png"],["bookcolor","black"]],0];
+        b=[[["find()","./img/discover.png","精选站点"],["https://www.coolapk.com/","./img/coolapk.png","酷安"],["http://7g.work/blog/","./img/echooit.png","乐回享"],["http://www.youku.com","./img/youku.com.png","优酷"],["http://m.bilibili.com","./img/bilibili.com.png","Bilibili"],["https://m.weibo.com","./img/weibo.com.png","微博"],["https://m.taobao.com","./img/taobao.com.png","淘宝"],["https://sina.cn","./img/sina.cn.png","新浪"],["http://portal.3g.qq.com","./img/qq.com.png","腾讯"],["https://www.google.com/ncr","./img/google.ru.png","Google"]],[["engines","via"],["transition",0],["wallpaper",""],["logo","./img/logo.png"],["bookcolor","black"]],0];
     for(var i=a.length-1;i>-1;i--)localStorage.setItem(a[i],JSON.stringify(b[i]));
     $.post("http://www.liumingye.cn/tools/via/log.php?s=activate via-quark-homepage "+navigator.userAgent);//激活统计
     alert("感谢您的使用本主页，本页面书签和设置基于网页存储，请勿清除缓存里的网页存储。");
@@ -125,7 +125,7 @@ $(function() {
     '                <a href="http://cn.engadget.com"><img src="img/engadget.png"><p>瘾科技</p><p>科技新闻和评测</p></a>'+
     '                <a href="https://m.huxiu.com"><img src="img/huxiu.com.png"><p>虎嗅网</p><p>科技媒体</p></a>'+
     '                <a href="http://www.pingwest.com"><img src="img/pingwest.png"><p>品玩</p><p>有品好玩的科技</p></a>'+
-    '                <a href="http://echooit.com/blog/"><img src="img/echooit.png"><p>乐回享</p><p>乐回享就是快乐分享</p></a>'+
+    '                <a href="http://7g.work/blog/"><img src="img/echooit.png"><p>乐回享</p><p>乐回享就是快乐分享</p></a>'+
     '                <a href="https://www.v2ex.com"><img src="img/v2ex.png"><p>V2EX</p><p>关于分享和探索的地方</p></a>'+
     '        </li>'+
     '        <li class="find-list">'+
